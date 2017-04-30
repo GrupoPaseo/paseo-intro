@@ -1,0 +1,81 @@
+@import "normalize"
+
+$fondo = #101010
+
+a
+  color rgb(161, 133, 0)
+  text-decoration none
+  font-weight 600
+
+
+.header
+  background-color $fondo
+  display flex
+  align-items center
+  justify-content center
+
+  img
+    width 170px
+    height 170px
+
+
+.main
+  display flex
+  font-family "Raleway", "Arial"
+
+  &__left
+    width 66%
+
+  &__right
+    width 34%
+    padding-left .5rem
+    display flex
+    flex-direction column
+    justify-content space-between
+
+    .visitanos
+      text-align center
+      text-transform uppercase
+
+    .coming-soon
+      text-transform uppercase
+      font-weight 700
+      text-decoration underline
+      font-size 2rem
+      text-align center
+      margin-bottom 1rem
+
+    .numero
+      font-weight 700
+      font-size 1.2rem
+      text-align center
+
+    .direccion
+      font-weight 700
+
+
+.footer
+  font-family "Raleway", "Arial", sans-serif
+  display flex
+  background-color $fondo
+  color white
+  align-items center
+  align-content center
+  justify-content space-between
+  padding-left 1rem
+  padding-right 1rem
+
+  &__copy
+    font-weight 300
+
+// SLIDER
+.flexslider
+  border none !important
+  width 100%
+  max-height 100%
+  margin 0px !important
+
+
+.flexslider .slides img
+  width 100%
+  max-height 100%
