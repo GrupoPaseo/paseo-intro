@@ -140,8 +140,14 @@ a
   padding-left 1rem
   padding-right 1rem
 
+  @media only screen and (min-width:200px) and (max-width : 699px)
+    flex-direction column
+
   &__copy
     font-weight 300
+
+    @media only screen and (min-width:200px) and (max-width : 699px)
+      text-align center
 
   &__social
     a
